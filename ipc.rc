@@ -1,0 +1,260 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ipc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\apple.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG 0, 0, 235, 67
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ARP 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,21
+    LTEXT           "데이터 통신 5조",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "14김도연 14전자현",IDC_STATIC,40,25,131,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+    LTEXT           "14이재훈 16박윤정",IDC_STATIC,40,40,119,8
+END
+
+IDD_IPC_DIALOG DIALOGEX 0, 0, 370, 251
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "데이터 통신 5조 ARP"
+FONT 9, "굴림", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_SRC,81,205,126,12,ES_CENTER | ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "설정(&O)",IDC_BUTTON_ADDR,230,221,47,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDVERT,217,7,1,237
+    LTEXT           "  Source MAC Address",IDC_STATIC,5,203,76,14,SS_CENTERIMAGE
+    LTEXT           "  Source IP Address",IDC_STATIC,5,222,68,14,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO_NIC,42,187,143,70,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "  MAC",IDC_STATI,5,188,31,8
+    LISTBOX         IDC_LIST_CHAT,5,17,209,112,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "ARP Cache",IDC_STATIC,5,7,209,179
+    PUSHBUTTON      "Item Delete",IDC_delete,20,131,74,13
+    PUSHBUTTON      "All Delete",IDC_all_delete,117,131,77,13
+    LTEXT           "IP주소",IDC_STATIC,14,161,37,17
+    PUSHBUTTON      "send",IDC_BUTTON4,146,159,38,13
+    GROUPBOX        "Proxy ARP Entry",IDC_STATIC,220,7,143,118
+    LISTBOX         IDC_proxy_LIST,220,17,143,84,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "add",IDC_Proxy_Add,230,107,53,12
+    PUSHBUTTON      "delete",IDC_Proxy_Delete,298,107,50,11
+    GROUPBOX        "Gratuitous ARP",IDC_STATIC,220,133,143,52
+    LTEXT           "H/W주소",IDC_STATIC,227,153,45,18
+    EDITTEXT        IDC_GRA_MAC,258,152,72,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "종료",IDOK,309,222,47,14
+    CONTROL         "",IDC_IP_ADDRESS,"SysIPAddress32",WS_TABSTOP,38,159,104,14
+    CONTROL         "",IDC_IP_src_ADDRESS,"SysIPAddress32",WS_TABSTOP,81,223,125,13
+    PUSHBUTTON      "send",IDC_Gratuitous_ARP,333,151,23,12
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 159, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,55,47,50,14
+    LTEXT           "올바르지 않은 Mac 주소 입니다.",IDC_STATIC,33,25,111,13
+END
+
+IDD_Proxy DIALOGEX 0, 0, 201, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,47,51,50,14
+    PUSHBUTTON      "취소",IDCANCEL,117,51,50,14
+    LTEXT           "IP 주소",IDC_STATIC,20,16,43,15
+    LTEXT           "Ethernet 주소",IDC_STATIC,15,36,48,12
+    CONTROL         "",IDC_Proxy_IP,"SysIPAddress32",WS_TABSTOP,73,14,119,15
+    EDITTEXT        IDC_Proxy_Ether,73,32,116,15,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "FileDescription", "ipc MFC 응용 프로그램"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ipc"
+            VALUE "LegalCopyright", "Copyright (C) 2002"
+            VALUE "OriginalFilename", "ipc.EXE"
+            VALUE "ProductName", "ipc 응용 프로그램"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 60
+    END
+
+    IDD_IPC_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 363
+        VERTGUIDE, 214
+        VERTGUIDE, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 244
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 69
+    END
+
+    IDD_Proxy, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "ARP 정보(&A)..."
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\ipc.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

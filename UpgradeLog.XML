@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ipc">
+</Property><Property Name="솔루션 파일" Value="C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.sln">
+</Property><Property Name="사용자 옵션 파일" Value="C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.suo">
+</Property><Property Name="Date" Value="2015년 5월 10일 일요일">
+</Property><Property Name="Time" Value="오후 15:29">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ipc.sln" Description="파일을 C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.sln.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="" Source="ipc.suo" Description="파일을 C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.suo.old(으)로 백업했습니다.">
+</Event><Event ErrorLevel="0" Project="ipc" Source="ipc.vcproj" Description="Converting project file 'C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ipc" Source="ipc.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="ipc" Source="ipc.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\.\Release\ipc.exe') does not match the Linker's OutputFile property value '.\Release/ipc.exe' ('C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\Release/ipc.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="ipc" Source="ipc.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\.\Debug\ipc.exe') does not match the Linker's OutputFile property value '.\Debug/ipc.exe' ('C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\Debug/ipc.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="ipc" Source="ipc.vcproj" Description="Done converting to new project file 'C:\Users\yzg10_000\Desktop\잡동사니\학과관련\3학년 1학기\데이터통신\족보\여러가지\동주형\ARP\최종완성본(5.17.07.33)\데이터 통신hw04 다시\ipc.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ipc" Source="ipc.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ipc.sln" Description="솔루션을 변환했습니다.">
+</Event><Event ErrorLevel="3" Project="" Source="ipc.sln" Description="Converted">
+</Event></UpgradeLog>

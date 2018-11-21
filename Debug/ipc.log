@@ -1,0 +1,49 @@
+﻿  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+  ProxyTable.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  NILayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(59): warning C4473: 'fprintf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(59): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 0개가 제공되었습니다.
+  c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(59): note: 누락된 variadic 인수 1이(가) 서식 문자열 '%s'에 필요합니다.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(77): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(139): warning C4474: 'fprintf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(139): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  LayerManager.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\layermanager.cpp(66): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\layermanager.cpp(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(132): note: 'strcpy' 선언을 참조하십시오.
+  IPLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  IPCAppDlg.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(508): warning C4477: 'sscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned char (*)[4]'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(508): note: 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(508): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(643): warning C4477: 'sscanf' : 서식 문자열 '%d'에 'int *' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'unsigned char (*)[4]'입니다.
+  c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(643): note: 서식 문자열에서 '%hhd'을(를) 사용하는 것이 좋습니다.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipcappdlg.cpp(643): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: 'sscanf' 선언을 참조하십시오.
+  ipc.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\ipc.cpp(54): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+  e:\비주얼스튜디오\vc\tools\msvc\14.13.26128\atlmfc\include\afxwin.h(5232): note: 'CWinApp::Enable3dControlsStatic' 선언을 참조하십시오.
+  GratitousAlert.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  EthernetLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  BaseLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ARPLayer.cpp
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  코드를 생성하고 있습니다...
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\arplayer.cpp(276): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\arplayer.cpp(292): warning C4172: 지역 변수 또는 임시: temp의 주소를 반환하고 있습니다.
+c:\users\김도연\desktop\3-1학기\데통\과제\03주차\5조 arp\nilayer.cpp(159): warning C4172: 지역 변수 또는 임시: data의 주소를 반환하고 있습니다.
+ARPLayer.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/SAFESEH' 사양으로 인해 무시됩니다.
+  ipc.vcxproj -> C:\Users\김도연\Desktop\3-1학기\데통\과제\03주차\5조 ARP\.\Debug\ipc.exe
